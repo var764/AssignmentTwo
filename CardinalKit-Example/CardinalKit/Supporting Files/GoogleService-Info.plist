@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>891560963199-f5udplu43l4ktir986slbk7t1l70ah26.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.891560963199-f5udplu43l4ktir986slbk7t1l70ah26</string>
+	<key>API_KEY</key>
+	<string>AIzaSyByCZZDUB1EJ_i1KdY_oW-i8SX0mIPSTLE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>891560963199</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.stanford.vasctrac2</string>
+	<key>PROJECT_ID</key>
+	<string>vasctrac</string>
+	<key>STORAGE_BUCKET</key>
+	<string>vasctrac.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:891560963199:ios:20516062460c4d2c84634a</string>
+</dict>
+</plist>
