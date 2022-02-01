@@ -21,7 +21,8 @@ enum LocalTaskItem: Int {
          sampleFunCoffeeSurvey,
          sampleFunCoffeeResult,
          sampleCoreMotionAppleWatch,
-         sampleLearnItem
+         sampleLearnItem,
+         onboardingSurvey
     
     /*
      * STEP (2) for each item, what should its
@@ -41,6 +42,8 @@ enum LocalTaskItem: Int {
             return "Coffee Results"
         case .sampleLearnItem:
             return "About CardinalKit"
+        case .onboardingSurvey:
+            return "Onboarding Survey"
         }
     }
     
@@ -61,6 +64,8 @@ enum LocalTaskItem: Int {
             return "ResearchKit Charts"
         case .sampleLearnItem:
             return "Visit cardinalkit.org"
+        case .onboardingSurvey:
+            return "Initial patient information intake."
         }
     }
     
@@ -97,6 +102,8 @@ enum LocalTaskItem: Int {
             return "Your Interests"
         case .sampleLearnItem, .sampleCoreMotionAppleWatch:
             return "Learn"
+        case .onboardingSurvey:
+            return "Onboarding"
         }
     }
     
@@ -118,6 +125,8 @@ enum LocalTaskItem: Int {
             return AnyView(CoffeeUIView())
         case .sampleLearnItem:
             return AnyView(LearnUIView())
+        case .onboardingSurvey:
+            return AnyView(CKTaskViewController(tasks: OnboardingSurvey.onboardingSurvey))
         }
     }
     

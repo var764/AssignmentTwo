@@ -5,9 +5,9 @@
 	<key>AppId</key>
 	<string>415789243347763</string>
 	<key>Study Title</key>
-	<string>CardinalKit</string>
+	<string>VascTrac 2.0</string>
 	<key>Team Name</key>
-	<string>Stanford Byers Center for Biodesign</string>
+	<string>Stanford School of Medicine</string>
 	<key>Email</key>
 	<string>contact@domain.com</string>
 	<key>Phone</key>
@@ -15,7 +15,7 @@
 	<key>Copyright</key>
 	<string>Made at Stanford with ❤️</string>
 	<key>Website</key>
-	<string>https://cardinalkit.org</string>
+	<string>http://vasctrac.stanford.edu/</string>
 	<key>Tint Color</key>
 	<string>#b6133f</string>
 	<key>Primary Color</key>
@@ -33,7 +33,7 @@
 	<key>Completion Step Title</key>
 	<string>Welcome aboard.</string>
 	<key>Completion Step Text</key>
-	<string>This step concludes the onboarding and consent process of the CardinalKit framework. Next up, you will see main app functionality.</string>
+	<string>This step concludes the registration process for VascTrac. Next up, you will see main app functionality.</string>
 	<key>Failed Login Title</key>
 	<string>Unable to Login 😔</string>
 	<key>Failed Login Text</key>
@@ -100,9 +100,8 @@
 	<key>HealthKit Data to Read</key>
 	<array>
 		<string>StepCount</string>
-		<string>DistanceWalkingRunning</string>
-		<string>FlightsClimbed</string>
-		<string>HeartRate</string>
+		<string>sixMinuteWalkTestDistance</string>
+		<string>vo2Max</string>
 	</array>
 	<key>Consent Form</key>
 	<dict>
